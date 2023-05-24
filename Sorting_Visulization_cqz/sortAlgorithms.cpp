@@ -751,7 +751,7 @@ void sortAlgorithms::selectSort()
 
         pauseLock.lock();
         pauseLock.unlock();
-        emit showSBMsg(4, QString("第 %1 轮  min_pos = %2").arg(i+1).arg(min_flag));
+        emit showSBMsg(4, QString("第 %1 轮").arg(i+1));
         emit baseColumn(min_flag); // 指示最小值
         msleep(speed);
 
