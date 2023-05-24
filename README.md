@@ -1,4 +1,5 @@
 # Sorting Visualization-bbdzs
+
  A powerful visualization system of sorting algorithm. It is a course design of SWU data structure.
 
 这是一款功能强大的排序算法可视化程序，是本人SWU数据结构课程设计的作品。
@@ -12,16 +13,22 @@
 
 ---------------------------------------------------------
 
-此页面包含两个文件夹和一个exe程序。
+此页面包含两个文件夹和一个exe程序:
+
 "Sorting_Visulization_cqz" 是项目文件夹，包含程序全部源码
+
 "Run_screenshot" 是运行截图，展示了程序的运行界面
+
 "Sorting_Visulization_cqz.exe" 是打包好的可执行文件，可独立运行，不需要编译
 
 ---------------------------------------------------------
 
 开发平台：Windows 10 22H2
+
 编程语言：C++
+
 IDE: Qt 5.15.2
+
 Kit: Desktop Qt 5.15.2 MinGW 32-bit
 
 
