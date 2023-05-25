@@ -2,7 +2,7 @@
 
  A powerful visualization system of sorting algorithm. It is a course design of SWU data structure.
 
-一款功能强大的排序算法可视化程序，是本人的SWU数据结构课程设计作品。
+一款功能强大的排序算法可视化程序，是本人在大二下的数据结构课程设计作品。
 
 此程序基于C++ QT设计，使用QThread多线程实现。功能包括随机生成数据、导入指定数据进行排序、8个排序算法可视化演示、连续执行演示模式、单步执行演示模式、状态栏描述排序操作、排序算法操作次数统计、演示速度随时可调节、暂停和继续排序等。
 
