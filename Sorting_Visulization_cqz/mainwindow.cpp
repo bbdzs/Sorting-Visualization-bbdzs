@@ -80,7 +80,7 @@ MainWindow::MainWindow(QWidget *parent)
     ui->comboBox_sortingalgorithm->addItem(tr("基数排序  O(N)     稳定"));            //  Index 0      O(n)
     ui->comboBox_sortingalgorithm->addItem(tr("快速排序  O(NlogN) 不稳定"));         //  Index 1      O(nlogn)
     ui->comboBox_sortingalgorithm->addItem(tr("归并排序  O(NlogN) 稳定"));         //  Index 2      O(nlogn)
-    ui->comboBox_sortingalgorithm->addItem(tr(" 堆排序   O(NlogN) 稳定"));         //  Index 3      O(nlogn)
+    ui->comboBox_sortingalgorithm->addItem(tr(" 堆排序   O(NlogN) 不稳定"));         //  Index 3      O(nlogn)
     ui->comboBox_sortingalgorithm->addItem(tr("希尔排序  O(N^1.5) 不稳定"));         //  Index 4      O(n^1.5)
     ui->comboBox_sortingalgorithm->addItem(tr("插入排序  O(N^2)   稳定"));          //  Index 5      O(n^2)
     ui->comboBox_sortingalgorithm->addItem(tr("冒泡排序  O(N^2)   稳定"));          //  Index 6      O(n^2)
@@ -411,7 +411,7 @@ void MainWindow::on_btn_sortingStart_clicked()
     if(algorithmSelected == 0) ui->label_algorithmShow->setText(tr("基数排序 - O(N) - 稳定"));            // 左上角显示算法名称
     else if(algorithmSelected == 1) ui->label_algorithmShow->setText(tr("快速排序 - O(NlogN) - 不稳定"));
     else if(algorithmSelected == 2) ui->label_algorithmShow->setText(tr("归并排序 - O(NlogN) - 稳定"));
-    else if(algorithmSelected == 3) ui->label_algorithmShow->setText(tr("堆排序  - O(NlogN) - 稳定"));
+    else if(algorithmSelected == 3) ui->label_algorithmShow->setText(tr("堆排序  - O(NlogN) - 不稳定"));
     else if(algorithmSelected == 4) ui->label_algorithmShow->setText(tr("希尔排序 - O(N^1.5) - 不稳定"));
     else if(algorithmSelected == 5) ui->label_algorithmShow->setText(tr("插入排序 - O(N^2) - 稳定"));
     else if(algorithmSelected == 6) ui->label_algorithmShow->setText(tr("冒泡排序 - O(N^2) - 稳定"));
