@@ -270,6 +270,7 @@ void MainWindow::on_btn_dataImport_clicked()
         if(dataNum > 300)
         {
             QMessageBox::information(this, "提示", "请您减小数据量，本程序支持的最大数据量为300！");
+            dataImporting = 0;          // 重置读入状态，没有读入数据
             return;
         }
     }
@@ -283,12 +284,14 @@ void MainWindow::on_btn_dataImport_clicked()
             if(numbers[i] < 0)      // 禁止0和负数参与（显示不出来）
             {
                 QMessageBox::information(this, "提示", "对不起，本程序仅支持正数参与排序，请修改数据！");
+                dataImporting = 0;          // 重置读入状态，没有读入数据
                 return;
             }
         }
-        else    // 数据量与输入不匹配
+        else    // 数据量与输入不匹配（数据量 > 实际数据）    注：数据量 < 实际数据时不做判断，只读入前n个数据
         {
             QMessageBox::information(this, "提示", "数据量与数据个数不匹配，请检查数据格式！");
+            dataImporting = 0;              // 重置读入状态，没有读入数据
             return;
         }
     }
