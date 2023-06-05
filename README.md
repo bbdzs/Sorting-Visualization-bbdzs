@@ -32,5 +32,17 @@ IDE: Qt 5.15.2
 Kit: Desktop Qt 5.15.2 MinGW 32-bit
 
 
+---------------------------------------------------------
+部分截图
+
+归并排序：
+![](https://github.com/bbdzs/Sorting-Visualization-bbdzs/raw/main/Run_screenshot/pic/mergeSort.png)
+
+基数排序：
+![](https://github.com/bbdzs/Sorting-Visualization-bbdzs/raw/main/Run_screenshot/pic/radixSort.png)
+
+排序完成：
+![](https://github.com/bbdzs/Sorting-Visualization-bbdzs/raw/main/Run_screenshot/pic/finishSort.png)
+
 
 
