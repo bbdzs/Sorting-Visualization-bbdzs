@@ -19,8 +19,6 @@
 
 "Run_screenshot" 是运行截图，展示了程序的运行界面
 
-"Sorting_Visulization_cqz.exe" 是打包好的可执行文件，可独立运行，不需要编译
-
 ---------------------------------------------------------
 
 开发平台：Windows 10 22H2
@@ -32,7 +30,7 @@ IDE: Qt 5.15.2
 Kit: Desktop Qt 5.15.2 MinGW 32-bit
 
 ---------------------------------------------------------
-部分截图
+## 部分截图
 
 归并排序：
 ![](https://github.com/bbdzs/Sorting-Visualization-bbdzs/raw/main/Run_screenshot/pic/mergeSort.png)
